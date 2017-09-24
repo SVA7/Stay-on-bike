@@ -1,0 +1,122 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Cluster (2.0.0)
+  - FBSDKCoreKit (4.26.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.26.0):
+    - FBSDKCoreKit
+  - Firebase/AdMob (4.1.1):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.23.0)
+  - Firebase/Auth (4.1.1):
+    - Firebase/Core
+    - FirebaseAuth (= 4.1.1)
+  - Firebase/Core (4.1.1):
+    - FirebaseAnalytics (= 4.0.3)
+    - FirebaseCore (= 4.0.6)
+  - Firebase/Database (4.1.1):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.2)
+  - Firebase/Messaging (4.1.1):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.2)
+  - FirebaseAnalytics (4.0.3):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.1.1):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.6):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.0.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.2):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - Google-Mobile-Ads-SDK (7.23.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.11)
+  - Kingfisher (4.0.1)
+  - leveldb-library (1.18.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Protobuf (3.4.0)
+  - Pulsator (0.3.0)
+  - RaisePlaceholder (1.0.3)
+  - SwiftNotificationCenter (1.0.2)
+  - SwiftyOnboard (1.3.4)
+  - UXCam (2.5.14)
+
+DEPENDENCIES:
+  - Cluster
+  - FBSDKLoginKit
+  - Firebase/AdMob
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Kingfisher
+  - Pulsator
+  - RaisePlaceholder
+  - SwiftNotificationCenter
+  - SwiftyOnboard
+  - UXCam
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Cluster: 9b362f4f4631b3bccd0c008baed284d57eea8854
+  FBSDKCoreKit: c8b8582311ec11b145451d8b9717dc6cc2ae5a76
+  FBSDKLoginKit: f3f03b94c21eb834af243c0a881d48641f47ca60
+  Firebase: 052c0de688fc87b414996eea13e223dd9fee3fa2
+  FirebaseAnalytics: 76f754d37ca5b04f36856729b6af3ca0152d1069
+  FirebaseAuth: f8b07aa83de60d606b4eadd81484b3ac2097ea3e
+  FirebaseCore: 28def3c643989c97ea5a69ea5000f5fa9902b9fd
+  FirebaseDatabase: 4d1a10639a42cae26e094296951b53c689e5e191
+  FirebaseInstanceID: c4c7fca62c7b7330caee5da04f19a37ea37bb1c1
+  FirebaseMessaging: 85af6c27188538b3a6f7dfd0b3b0596358cb0c39
+  Google-Mobile-Ads-SDK: a43dc8efdb566c74d00ac6934c781de969348d80
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
+  Kingfisher: b771785e9461ed4b8686d40e7145f9e58100cb24
+  leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  Pulsator: 0191f14f7ab82d6dbde6fdbde42036f07a4450e3
+  RaisePlaceholder: e77c8565f556e25659bdf1b9a77647a952b8cb70
+  SwiftNotificationCenter: d108168dcbb6b804804cc22d5848733c3ca7ff5b
+  SwiftyOnboard: 05d2fd80cbedc43b62d190e45b94455f73bda226
+  UXCam: e1497478bd09a26d6084db4697ac952c220e5b08
+
+PODFILE CHECKSUM: 7debf2ff188fb21dd7729cf5d40e43e785e62eb8
+
+COCOAPODS: 1.2.0

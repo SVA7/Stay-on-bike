@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="4096" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="BYM-Zi-p80" customClass="CustomOverlay">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eH3-np-LzV">
+                    <rect key="frame" x="135.5" y="522" width="49" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="mqV-R3-8rF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="14"/>
+                    <state key="normal" title="S K I P">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdq-2w-u9H">
+                    <rect key="frame" x="16" y="451" width="288" height="54"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="FwP-QW-Sde"/>
+                        <constraint firstAttribute="width" constant="288" id="Lj9-up-Rh0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                    <state key="normal">
+                        <color key="titleColor" red="1" green="0.39105647799999999" blue="0.068222895259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="tKD-sf-BrH">
+                    <rect key="frame" x="106" y="30" width="107" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="C93-9o-8Px"/>
+                        <constraint firstAttribute="width" constant="107" id="IXa-7E-c7a"/>
+                    </constraints>
+                </imageView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="PRM-gQ-WMA">
+                    <rect key="frame" x="10" y="386" width="300" height="37"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qdq-2w-u9H" secondAttribute="trailing" constant="16" id="4Ge-3I-O5B"/>
+                <constraint firstItem="tKD-sf-BrH" firstAttribute="centerX" secondItem="BYM-Zi-p80" secondAttribute="centerX" id="7wh-j1-q5a"/>
+                <constraint firstItem="tKD-sf-BrH" firstAttribute="centerX" secondItem="BYM-Zi-p80" secondAttribute="centerX" id="9a9-vQ-9g3"/>
+                <constraint firstItem="qdq-2w-u9H" firstAttribute="leading" secondItem="BYM-Zi-p80" secondAttribute="leading" constant="16" id="Kl8-Lb-jSc"/>
+                <constraint firstAttribute="bottom" secondItem="eH3-np-LzV" secondAttribute="bottom" constant="15" id="PRX-Fc-avi"/>
+                <constraint firstItem="PRM-gQ-WMA" firstAttribute="centerX" secondItem="BYM-Zi-p80" secondAttribute="centerX" id="R6C-ba-vrJ"/>
+                <constraint firstItem="qdq-2w-u9H" firstAttribute="centerX" secondItem="BYM-Zi-p80" secondAttribute="centerX" id="TjG-Dx-bt3"/>
+                <constraint firstItem="PRM-gQ-WMA" firstAttribute="leading" secondItem="BYM-Zi-p80" secondAttribute="leading" constant="10" id="fpS-bV-n0d"/>
+                <constraint firstItem="qdq-2w-u9H" firstAttribute="top" secondItem="PRM-gQ-WMA" secondAttribute="bottom" constant="28" id="h7D-Tn-t0d"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eH3-np-LzV" secondAttribute="trailing" id="j2p-GL-Fu1"/>
+                <constraint firstAttribute="trailing" secondItem="PRM-gQ-WMA" secondAttribute="trailing" constant="10" id="mgp-G4-KBB"/>
+                <constraint firstItem="tKD-sf-BrH" firstAttribute="top" secondItem="QN5-H7-Yem" secondAttribute="top" constant="10" id="o8y-mi-N2X"/>
+                <constraint firstAttribute="bottom" secondItem="qdq-2w-u9H" secondAttribute="bottom" constant="63" id="rSq-yL-ArQ"/>
+                <constraint firstItem="eH3-np-LzV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="BYM-Zi-p80" secondAttribute="leading" id="tIt-mK-4Xo"/>
+                <constraint firstItem="eH3-np-LzV" firstAttribute="centerX" secondItem="BYM-Zi-p80" secondAttribute="centerX" id="wkR-pk-5xr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="QN5-H7-Yem"/>
+            <connections>
+                <outlet property="authorizBT" destination="qdq-2w-u9H" id="kJu-92-mbz"/>
+                <outlet property="contentControl" destination="PRM-gQ-WMA" id="vln-Sg-5cs"/>
+                <outlet property="pgControl" destination="PRM-gQ-WMA" id="STJ-KY-1f6"/>
+                <outlet property="skipBT" destination="eH3-np-LzV" id="cic-pa-HCi"/>
+            </connections>
+            <point key="canvasLocation" x="481" y="737"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="288" height="88"/>
+    </resources>
+</document>

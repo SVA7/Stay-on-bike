@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1057967343955-8qe78n41cnuo0m0hb4ad2d2k8rq29iif.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1057967343955-8qe78n41cnuo0m0hb4ad2d2k8rq29iif</string>
+	<key>API_KEY</key>
+	<string>AIzaSyATX_zGj7nM5DvHeRUypUYrPy-FiO2y3Nc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1057967343955</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Stay-on-bike.Stay-on-bike</string>
+	<key>PROJECT_ID</key>
+	<string>stay-on-bike</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stay-on-bike.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1057967343955:ios:f264c8a30b0d671b</string>
+	<key>DATABASE_URL</key>
+	<string>https://stay-on-bike.firebaseio.com</string>
+</dict>
+</plist>

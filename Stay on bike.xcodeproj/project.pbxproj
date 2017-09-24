@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0D0F1F4F1F77E4F5005F7519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F1F4E1F77E4F5005F7519 /* AppDelegate.swift */; };
-		0D0F1F511F77E4F5005F7519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F1F501F77E4F5005F7519 /* ViewController.swift */; };
-		0D0F1F541F77E4F5005F7519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0F1F521F77E4F5005F7519 /* Main.storyboard */; };
 		0D0F1F571F77E4F5005F7519 /* Stay_on_bike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F1F551F77E4F5005F7519 /* Stay_on_bike.xcdatamodeld */; };
 		0D0F1F591F77E4F5005F7519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0F1F581F77E4F5005F7519 /* Assets.xcassets */; };
 		0D0F1F5C1F77E4F5005F7519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0F1F5A1F77E4F5005F7519 /* LaunchScreen.storyboard */; };
 		0D0F1F671F77E4F5005F7519 /* Stay_on_bikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F1F661F77E4F5005F7519 /* Stay_on_bikeTests.swift */; };
 		0D0F1F721F77E4F5005F7519 /* Stay_on_bikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F1F711F77E4F5005F7519 /* Stay_on_bikeUITests.swift */; };
+		0DE41CF11F781D3700FB3AFB /* LaunchSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE41CF01F781D3700FB3AFB /* LaunchSB.storyboard */; };
+		69B641D63CFDA18D009135DF /* Pods_Stay_on_bike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268FA6D35616BD3C848E95C2 /* Pods_Stay_on_bike.framework */; };
+		C9A85B00B611999A25063B25 /* Pods_Stay_on_bikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D1E920522FE72128168C48 /* Pods_Stay_on_bikeUITests.framework */; };
+		F7532A753B2E22E491487D91 /* Pods_Stay_on_bikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A921C9E01604B1C4311233 /* Pods_Stay_on_bikeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D1244569F1AEBACE4D3131 /* Pods-Stay on bikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stay on bikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stay on bikeUITests/Pods-Stay on bikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0CB8FDE1EA1C64B680CAAA5A /* Pods-Stay on bikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stay on bikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stay on bikeUITests/Pods-Stay on bikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0D0F1F4B1F77E4F5005F7519 /* Stay on bike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stay on bike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0F1F4E1F77E4F5005F7519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D0F1F501F77E4F5005F7519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D0F1F531F77E4F5005F7519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D0F1F561F77E4F5005F7519 /* Stay_on_bike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stay_on_bike.xcdatamodel; sourceTree = "<group>"; };
 		0D0F1F581F77E4F5005F7519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D0F1F5B1F77E4F5005F7519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,23 @@
 		0D0F1F6D1F77E4F5005F7519 /* Stay on bikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stay on bikeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0F1F711F77E4F5005F7519 /* Stay_on_bikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stay_on_bikeUITests.swift; sourceTree = "<group>"; };
 		0D0F1F731F77E4F5005F7519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D50F4711F78116E00CF8030 /* CustomOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlay.swift; sourceTree = "<group>"; };
+		0D50F4721F78116E00CF8030 /* OnboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardVC.swift; sourceTree = "<group>"; };
+		0D50F4731F78116E00CF8030 /* LaunchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
+		0D50F4741F78116E00CF8030 /* CustomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPage.swift; sourceTree = "<group>"; };
+		0D50F4751F78116E00CF8030 /* CustomPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPage.xib; sourceTree = "<group>"; };
+		0D50F4761F78116E00CF8030 /* CustomOverlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomOverlay.xib; sourceTree = "<group>"; };
+		0D50F4771F78116F00CF8030 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0DE41CEF1F78140A00FB3AFB /* OnboardSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardSB.storyboard; sourceTree = "<group>"; };
+		0DE41CF01F781D3700FB3AFB /* LaunchSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchSB.storyboard; sourceTree = "<group>"; };
+		0DE41CF21F781E4500FB3AFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CFC5D247A6013885661F0CE /* Pods-Stay on bikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stay on bikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stay on bikeTests/Pods-Stay on bikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		268FA6D35616BD3C848E95C2 /* Pods_Stay_on_bike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stay_on_bike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A921C9E01604B1C4311233 /* Pods_Stay_on_bikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stay_on_bikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D732E97A70E67EACF568C22 /* Pods-Stay on bikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stay on bikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stay on bikeTests/Pods-Stay on bikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70D1FD404766A5658CCECD7F /* Pods-Stay on bike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stay on bike.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stay on bike/Pods-Stay on bike.release.xcconfig"; sourceTree = "<group>"; };
+		A3D1E920522FE72128168C48 /* Pods_Stay_on_bikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stay_on_bikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23D85095B54CE156F2FF7C /* Pods-Stay on bike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stay on bike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stay on bike/Pods-Stay on bike.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B641D63CFDA18D009135DF /* Pods_Stay_on_bike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7532A753B2E22E491487D91 /* Pods_Stay_on_bikeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A85B00B611999A25063B25 /* Pods_Stay_on_bikeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +105,8 @@
 				0D0F1F651F77E4F5005F7519 /* Stay on bikeTests */,
 				0D0F1F701F77E4F5005F7519 /* Stay on bikeUITests */,
 				0D0F1F4C1F77E4F5005F7519 /* Products */,
+				B7143F0DCE3EA7DB549E0A64 /* Pods */,
+				1ADA811C5B5E6AD708A53811 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +123,11 @@
 		0D0F1F4D1F77E4F5005F7519 /* Stay on bike */ = {
 			isa = PBXGroup;
 			children = (
-				0D0F1F4E1F77E4F5005F7519 /* AppDelegate.swift */,
-				0D0F1F501F77E4F5005F7519 /* ViewController.swift */,
-				0D0F1F521F77E4F5005F7519 /* Main.storyboard */,
-				0D0F1F581F77E4F5005F7519 /* Assets.xcassets */,
-				0D0F1F5A1F77E4F5005F7519 /* LaunchScreen.storyboard */,
-				0D0F1F5D1F77E4F5005F7519 /* Info.plist */,
-				0D0F1F551F77E4F5005F7519 /* Stay_on_bike.xcdatamodeld */,
+				0D50F4691F7810B900CF8030 /* Model */,
+				0D50F46A1F7810C400CF8030 /* View */,
+				0D50F46B1F7810C800CF8030 /* Controller */,
+				0D50F46D1F7810DB00CF8030 /* Extention */,
+				0D50F46C1F7810D100CF8030 /* Support File */,
 			);
 			path = "Stay on bike";
 			sourceTree = "<group>";
@@ -128,6 +150,127 @@
 			path = "Stay on bikeUITests";
 			sourceTree = "<group>";
 		};
+		0D50F4691F7810B900CF8030 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F4701F78110800CF8030 /* CoreData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D50F46A1F7810C400CF8030 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F47A1F7811CE00CF8030 /* Storyboards */,
+				0D50F46F1F7810EB00CF8030 /* Xib */,
+				0D50F46E1F7810E500CF8030 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D50F46B1F7810C800CF8030 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F47C1F78120A00CF8030 /* Launch */,
+				0D50F47B1F78120100CF8030 /* Onboarding */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D50F46C1F7810D100CF8030 /* Support File */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F1F4E1F77E4F5005F7519 /* AppDelegate.swift */,
+				0D0F1F581F77E4F5005F7519 /* Assets.xcassets */,
+				0D0F1F5A1F77E4F5005F7519 /* LaunchScreen.storyboard */,
+				0DE41CF21F781E4500FB3AFB /* GoogleService-Info.plist */,
+				0D0F1F5D1F77E4F5005F7519 /* Info.plist */,
+			);
+			path = "Support File";
+			sourceTree = "<group>";
+		};
+		0D50F46D1F7810DB00CF8030 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		0D50F46E1F7810E500CF8030 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0D50F46F1F7810EB00CF8030 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F4761F78116E00CF8030 /* CustomOverlay.xib */,
+				0D50F4751F78116E00CF8030 /* CustomPage.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		0D50F4701F78110800CF8030 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0D0F1F551F77E4F5005F7519 /* Stay_on_bike.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0D50F47A1F7811CE00CF8030 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F4771F78116F00CF8030 /* Launch Screen.storyboard */,
+				0DE41CEF1F78140A00FB3AFB /* OnboardSB.storyboard */,
+				0DE41CF01F781D3700FB3AFB /* LaunchSB.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0D50F47B1F78120100CF8030 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F4711F78116E00CF8030 /* CustomOverlay.swift */,
+				0D50F4741F78116E00CF8030 /* CustomPage.swift */,
+				0D50F4721F78116E00CF8030 /* OnboardVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0D50F47C1F78120A00CF8030 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F4731F78116E00CF8030 /* LaunchVC.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		1ADA811C5B5E6AD708A53811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268FA6D35616BD3C848E95C2 /* Pods_Stay_on_bike.framework */,
+				53A921C9E01604B1C4311233 /* Pods_Stay_on_bikeTests.framework */,
+				A3D1E920522FE72128168C48 /* Pods_Stay_on_bikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7143F0DCE3EA7DB549E0A64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF23D85095B54CE156F2FF7C /* Pods-Stay on bike.debug.xcconfig */,
+				70D1FD404766A5658CCECD7F /* Pods-Stay on bike.release.xcconfig */,
+				6D732E97A70E67EACF568C22 /* Pods-Stay on bikeTests.debug.xcconfig */,
+				1CFC5D247A6013885661F0CE /* Pods-Stay on bikeTests.release.xcconfig */,
+				0CB8FDE1EA1C64B680CAAA5A /* Pods-Stay on bikeUITests.debug.xcconfig */,
+				01D1244569F1AEBACE4D3131 /* Pods-Stay on bikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D0F1F761F77E4F6005F7519 /* Build configuration list for PBXNativeTarget "Stay on bike" */;
 			buildPhases = (
+				ED67322EDCBC841C5EE1E0BD /* [CP] Check Pods Manifest.lock */,
 				0D0F1F471F77E4F5005F7519 /* Sources */,
 				0D0F1F481F77E4F5005F7519 /* Frameworks */,
 				0D0F1F491F77E4F5005F7519 /* Resources */,
+				1C7EB582B389BF05744B068D /* [CP] Embed Pods Frameworks */,
+				D5F383D333B3F7755E268282 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D0F1F791F77E4F6005F7519 /* Build configuration list for PBXNativeTarget "Stay on bikeTests" */;
 			buildPhases = (
+				E38606C01EB19CDA65EB25B8 /* [CP] Check Pods Manifest.lock */,
 				0D0F1F5E1F77E4F5005F7519 /* Sources */,
 				0D0F1F5F1F77E4F5005F7519 /* Frameworks */,
 				0D0F1F601F77E4F5005F7519 /* Resources */,
+				7E3188F89066144EDC990B83 /* [CP] Embed Pods Frameworks */,
+				16E4416058259C8CDB8C3237 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D0F1F7C1F77E4F6005F7519 /* Build configuration list for PBXNativeTarget "Stay on bikeUITests" */;
 			buildPhases = (
+				2603F96682F5630BE2D69A1C /* [CP] Check Pods Manifest.lock */,
 				0D0F1F691F77E4F5005F7519 /* Sources */,
 				0D0F1F6A1F77E4F5005F7519 /* Frameworks */,
 				0D0F1F6B1F77E4F5005F7519 /* Resources */,
+				74CFDF29CEFAC41C92E304E6 /* [CP] Embed Pods Frameworks */,
+				38581B5A94102F3AA8C6BDA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +389,7 @@
 			files = (
 				0D0F1F5C1F77E4F5005F7519 /* LaunchScreen.storyboard in Resources */,
 				0D0F1F591F77E4F5005F7519 /* Assets.xcassets in Resources */,
-				0D0F1F541F77E4F5005F7519 /* Main.storyboard in Resources */,
+				0DE41CF11F781D3700FB3AFB /* LaunchSB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +409,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16E4416058259C8CDB8C3237 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stay on bikeTests/Pods-Stay on bikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C7EB582B389BF05744B068D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stay on bike/Pods-Stay on bike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2603F96682F5630BE2D69A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38581B5A94102F3AA8C6BDA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stay on bikeUITests/Pods-Stay on bikeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74CFDF29CEFAC41C92E304E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stay on bikeUITests/Pods-Stay on bikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E3188F89066144EDC990B83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stay on bikeTests/Pods-Stay on bikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F383D333B3F7755E268282 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stay on bike/Pods-Stay on bike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38606C01EB19CDA65EB25B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED67322EDCBC841C5EE1E0BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D0F1F471F77E4F5005F7519 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D0F1F571F77E4F5005F7519 /* Stay_on_bike.xcdatamodeld in Sources */,
-				0D0F1F511F77E4F5005F7519 /* ViewController.swift in Sources */,
 				0D0F1F4F1F77E4F5005F7519 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +589,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0D0F1F521F77E4F5005F7519 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D0F1F531F77E4F5005F7519 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0D0F1F5A1F77E4F5005F7519 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,36 +709,41 @@
 		};
 		0D0F1F771F77E4F6005F7519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF23D85095B54CE156F2FF7C /* Pods-Stay on bike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GR7WGC5KHB;
-				INFOPLIST_FILE = "Stay on bike/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stay on bike/Support File/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Stay-on-bike.Stay-on-bike";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0D0F1F781F77E4F6005F7519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D1FD404766A5658CCECD7F /* Pods-Stay on bike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GR7WGC5KHB;
-				INFOPLIST_FILE = "Stay on bike/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Stay on bike/Support File/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Stay-on-bike.Stay-on-bike";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		0D0F1F7A1F77E4F6005F7519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D732E97A70E67EACF568C22 /* Pods-Stay on bikeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +761,7 @@
 		};
 		0D0F1F7B1F77E4F6005F7519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFC5D247A6013885661F0CE /* Pods-Stay on bikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +779,7 @@
 		};
 		0D0F1F7D1F77E4F6005F7519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB8FDE1EA1C64B680CAAA5A /* Pods-Stay on bikeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +796,7 @@
 		};
 		0D0F1F7E1F77E4F6005F7519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D1244569F1AEBACE4D3131 /* Pods-Stay on bikeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
